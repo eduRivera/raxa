@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Numero:</b>
+  <%= @producto.numero %>
+</p>
+
+<p>
+  <b>Cod barras:</b>
+  <%= @producto.cod_barras %>
+</p>
+
+<p>
+  <b>Descripcion corta:</b>
+  <%= @producto.descripcion_corta %>
+</p>
+
+<p>
+  <b>Descripcion larga:</b>
+  <%= @producto.descripcion_larga %>
+</p>
+
+<p>
+  <b>Familia:</b>
+  <%= @producto.familia %>
+</p>
+
+<p>
+  <b>Precio:</b>
+  <%= @producto.precio %>
+</p>
+
+<p>
+  <b>Dto promocion:</b>
+  <%= @producto.dto_promocion %>
+</p>
+
+<p>
+  <b>Ud caja:</b>
+  <%= @producto.ud_caja %>
+</p>
+
+
+<%= link_to 'Edit', edit_producto_path(@producto) %> |
+<%= link_to 'Back', productos_path %>

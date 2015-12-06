@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  numero: 1
+  cod_barras: 1
+  descripcion_corta: MyString
+  descripcion_larga: MyText
+  familia: MyString
+  precio: 9.99
+  dto_promocion: 1
+  ud_caja: 1
+
+two:
+  numero: 1
+  cod_barras: 1
+  descripcion_corta: MyString
+  descripcion_larga: MyText
+  familia: MyString
+  precio: 9.99
+  dto_promocion: 1
+  ud_caja: 1

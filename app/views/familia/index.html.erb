@@ -1,0 +1,25 @@
+<h1>Listing familia</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @familia.each do |familium| %>
+  <tr>
+    <td><%= familium.name %></td>
+    <td><%= familium.image %></td>
+    <td><%= link_to 'Show', familium %></td>
+    <td><%= link_to 'Edit', edit_familium_path(familium) %></td>
+    <td><%= link_to 'Destroy', familium, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Familium', new_familium_path %>

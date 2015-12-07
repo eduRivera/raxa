@@ -1,6 +1,11 @@
 Raxa::Application.routes.draw do
-  # root :to => 'welcome#index'
+  resources :familia
+
+  root :to => 'welcome#index'
   get "welcome/index"
+  get "welcome/about"
+  get "welcome/contact"
+  get "welcome/familia"
 
   resources :productos
 

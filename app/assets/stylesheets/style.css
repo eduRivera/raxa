@@ -664,11 +664,11 @@ ul.f-list span.f-text {
 }
 /*--footer-middle--*/
 .footer-middle{
-	padding:4% 0;
+	padding:8% 0;
 }
 .footer-middle{
 	background: url(/assets/carusel_marcas.png) no-repeat;
-	background-size: 100% 100px;
+	background-size: 100% 200px;
 }
 .span_1_of_f_2  h3{
 	color:#fff;

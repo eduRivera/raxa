@@ -27,10 +27,10 @@
 			</div>
 			<div class="menu">
             <ul class="megamenu skyblue">
-				<li class="active grid"><a href="index.html">Inicio</a></li>			
+				<li><a href="index.html">Inicio</a></li>			
 				<li><a class="color6" href="/welcome/familia">Catálogo</a></li>
 				<li><a class="color7" href="/welcome/about">Empresa</a></li>
-				<li><a class="color7" href="/welcome/contact">Contacto</a></li>
+				<li class="active grid"><a class="color7" href="/welcome/contact">Contacto</a></li>
 			</ul>
 		</div>
 	</div>
@@ -55,44 +55,32 @@
  <div class="clear"></div>
  </div>
 </div>
-<!-- start slider -->
-<div id="fwslider">
-    <div class="slider_container">
-        <div class="slide"> 
-            <!-- Slide image -->
-                <img src="/assets/gilet.png" alt=""/>
-            <!-- /Slide image -->
-            <!-- Texts container -->
-            <div class="slide_content">
-                <div class="slide_content_wrap">
-                    <!-- Text title -->
-                    <!-- /Text title -->
-                    
-                    <!-- Text description -->
-                    <p class="description">Cargador 4 unidades</p>
-                    <!-- /Text description -->
-                    <p class="description">4,69 €</p>
-                </div>
+       <div class="wrap">
+	    <ul class="breadcrumb breadcrumb__t"><a class="home" href="/">Inicio</a>  / Contacto <span style="float:right;">937.464.124</span></ul>
+		   <div class="content-top">
+			   <form method="post" action="contact-post.html">
+					<div class="to">
+                     	<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					 	<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left: 10px">
+					</div>
+					<div class="to">
+                     	<input type="text" class="text" value="Teléfono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Website';}">
+					 	<input type="text" class="text" value="Empresa" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left: 10px">
+					</div>
+					<div class="text">
+	                   <textarea value="Mensaje:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Mensaje:</textarea>
+	                </div>
+	                <div class="submit">
+	               		<input type="submit" value="Submit">
+	                </div>
+               </form>
+               <br>
+               <p class="text">HORARIO: de 9 - 14h y de 15:00 - 18:00h. De lunes a Viernes. (937.464.124)</p>
+                <div class="map">
+					<iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11947.72836758568!2d2.102251500000006!3d41.527411599999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9484a5980214413!2sRaxa+Distribuciones+1997%2C+Sl!5e0!3m2!1ses!2ses!4v1449418770921"></iframe><br><small></small>
+				</div>
             </div>
-             <!-- /Texts container -->
-        </div>
-        <!-- /Duplicate to create more slides -->
-        <div class="slide">
-            <img src="/assets/banner1.jpg" alt=""/>
-            <div class="slide_content">
-                <div class="slide_content_wrap">
-                    <h4 class="title">consectetuer adipiscing </h4>
-                    <p class="description">diam nonummy nibh euismod</p>
-                </div>
-            </div>
-        </div>
-        <!--/slide -->
-    </div>
-    <div class="timers"></div>
-    <div class="slidePrev"><span></span></div>
-    <div class="slideNext"><span></span></div>
-</div>
-<!--/slider -->
+       </div> 
 <div class="main">
 </div>
 </div>
@@ -127,4 +115,3 @@
 	      </div>
      </div>
 </div>
-
